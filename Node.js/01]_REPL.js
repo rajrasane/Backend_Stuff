@@ -7,6 +7,6 @@
 
 // Running a JS file using node
 
-// ` node filename.js ` //-> must always be in correct directory to run the file.
+// ` node filename.js ` //-> must always be in console with correct directory to run the file.
 
 //---------------------------------------------------------------------------------------------------------------------------------------

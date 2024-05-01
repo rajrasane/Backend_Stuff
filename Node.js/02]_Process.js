@@ -9,5 +9,3 @@
 
 // 1) process.argv
 // -  Returns a array of command-line arguments passed to the Node.js process.
-
-// 2) 
