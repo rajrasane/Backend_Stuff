@@ -20,6 +20,3 @@ app.get('/search', (req, res) => {
     const page = req.query.page; // Contains '1'
     // Perform search or pagination based on query parameters
 });
-
-
-//---------------------------------------------------------------------------------------------------------------------------------------
