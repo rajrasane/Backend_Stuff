@@ -21,6 +21,13 @@
 
 //---------------------------------------------------------------------------------------------------------------------------------------
 
+// `npm i --save-dev nodemon`
+
+// - This install nodemon as a development dependency, this adds nodemon to the devDependencies in package.json ,
+// ensuring it's installed only in development environments and not in production.
+
+//---------------------------------------------------------------------------------------------------------------------------------------
+
 // Benefits:-
 
 // Productivity: Saves time by automating server restarts.
