@@ -1,0 +1,36 @@
+BSON (Binary JSON)
+
+- BSON: "Binary JSON," encodes type and length information for faster traversal compared to JSON.
+- Adds non-JSON-native data types like dates and binary data, supporting MongoDB effectively.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+// for example
+
+{"hello": "world"} →
+\x16\x00\x00\x00           // total document size
+\x02                       // 0x02 = type String
+hello\x00                  // field name
+\x06\x00\x00\x00world\x00  // field value
+\x00                       // 0x00 = type EOO ('end of object')
+ 
+{"BSON": ["awesome", 5.05, 1986]} →
+\x31\x00\x00\x00
+ \x04BSON\x00
+ \x26\x00\x00\x00
+ \x02\x30\x00\x08\x00\x00\x00awesome\x00
+ \x01\x31\x00\x33\x33\x33\x33\x33\x33\x14\x40
+ \x10\x32\x00\xc2\x07\x00\x00
+ \x00
+ \x00
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+JSON vs BSON
+
+- JSON uses UTF-8 String encoding, while BSON uses Binary encoding.
+- BSON supports additional data types like Date and BinData, which JSON doesn't.
+- JSON is readable by both humans and machines, while BSON is designed for machine use only.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
