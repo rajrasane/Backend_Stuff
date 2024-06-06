@@ -5,3 +5,37 @@ MongoDB
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
+Mongo Shell 
+
+- mongosh is basically a shell from where we can make changes in our databases 
+- mongosh is similar to the node shell as it can recognize Javascript and can perform it's operations
+
+mongosh //to start mongoDB shell in our command prompt
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Commands In the Shell
+
+
+help // to get all mongoDB commands 
+
+use college // to create and use new database called "College"
+
+cls // to create the screen in the mongo Shell
+
+exit or quit // to exit from the mongo shell
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+test Database (temporary database)
+
+- whenever we start the mongo shell , it creates a temporary database in our system 
+- this DB isn't shown even after using the `show dbs` command
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Use 
+
+- Even after we create a new database with `use` command , it will get deleted after quiting/exiting the shell unless and unless there's a any data insert
+
+---------------------------------------------------------------------------------------------------------------------------------------
