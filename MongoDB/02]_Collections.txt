@@ -1,0 +1,12 @@
+Collections
+
+- Collections in MongoDB are similar to Tables in SQL 
+- MongoDB collections store BSON documents with dynamic schemas.
+- They support indexing, atomic operations, and can scale with sharding and replication for reliability and performance.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+What is a document in MongoDB ?
+
+- Mongo stores data in form documents (BSON docs)
+
+---------------------------------------------------------------------------------------------------------------------------------------
